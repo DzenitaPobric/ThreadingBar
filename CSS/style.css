@@ -1,0 +1,31 @@
+
+
+#logo{
+    font-family:'Great Vibes';
+    font-size: 22px;
+    font-weight: bold
+}
+
+#oNama{
+    text-align:center;
+     width:60%; 
+     margin:0 auto;
+}
+
+#myBtn{
+
+    display: none;
+    position: fixed;
+    bottom: 3%;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px; 
+    width:40px
+}
+
+#myBtn:hover {
+    background-color: rgba(247, 247, 17, 0.815)
+  }
