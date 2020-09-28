@@ -25,18 +25,42 @@ margin-top: 4.5%;
 }
 
 
-
-
 #logo{
     font-family:'Great Vibes';
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold
 }
 
-#oNama{
+#logo:hover{
+    color:yellow !important
+}
+
+#meni{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#meni:hover{
+    color:yellow !important;
+    font-weight: bold;
+}
+
+.ikonafooter:hover{
+    color:yellow !important;
+    
+}
+
+.oNama{
     text-align:center;
      width:60%; 
      margin:0 auto;
+     letter-spacing: 1px;
+}
+
+.oNamaSlika{
+    letter-spacing: 1px;
+
 }
 
 #myBtn{
@@ -56,3 +80,14 @@ margin-top: 4.5%;
 #myBtn:hover {
     background-color: rgba(247, 247, 17, 0.815)
   }
+
+
+  .w3-large{
+      font-weight: bold;
+  }
+
+
+  .w3-center{
+    font-weight: bold;
+  }
+

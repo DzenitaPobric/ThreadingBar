@@ -21,11 +21,11 @@
     <a href="#home" class="w3-bar-item w3-button w3-wide" id="logo">Threading bar "Lejla Habibija"</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">O nama</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Naš tim</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Usluge</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Cjenovnik</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Kontakt</a>
+      <a href="#about" class="w3-bar-item w3-button" id="meni">O nama</a>
+      <a href="#team" class="w3-bar-item w3-button"  id="meni"><i class="fa fa-user"></i> Naš tim</a>
+      <a href="#work" class="w3-bar-item w3-button"  id="meni"><i class="fa fa-th"></i> Usluge</a>
+      <a href="#pricing" class="w3-bar-item w3-button"  id="meni"><i class="fa fa-usd"></i> Cjenovnik</a>
+      <a href="#contact" class="w3-bar-item w3-button"  id="meni"><i class="fa fa-envelope"></i> Kontakt</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -64,34 +64,36 @@
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">O nama</h3>
-  <p id="oNama"  >'Threading bar nudi usluge depilacije koncem tj.threading metodom (obrve, lice).
+  <h2 class="w3-center">O nama</h2>
+  <p class="oNama" >'Threading bar nudi usluge depilacije koncem tj.threading metodom (obrve, lice).
        Nudimo usluge profesionalnog šminkanja za sve prilike.
         Threading bar ima u ponudi i brze usluge threadinga bez naručivanja.'</p>
   <p class="w3-center w3-large">Key features of our company</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <img src="../Images/hair-cut.png" class="w3-margin-bottom w3-jumbo w3-center" width="30%" >
-      <p class="w3-large">Frizure</p>
-      <p>U našem salonu sa našim tretmanima dobijate rezultate u obliku najmodernijih, najtraženijih ili
-          jednostavno unikatnih frizura koje zaželite. </p>
+      <p class="w3-large" >Frizure</p>
+      <p class="oNamaSlika" >U našem salonu, sa našim tretmanima dobijate rezultate u obliku najmodernijih, najtraženijih ili
+          jednostavno unikatnih frizura koje zaželite. U ponudi su muške i ženske frizure koje izvode naše profesionalne uposlenice. </p>
     </div>
     <div class="w3-quarter">
             <img src="../Images/makeup-icon.png" class="w3-margin-bottom w3-jumbo w3-center" width="30%" >
           
       <p class="w3-large">Šminkanje</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p class="oNamaSlika" >Za sve Vaše važne trenutke, gdje želite da zablistate u punom sjaju, tu su naše usluge profesionalnog šminkanja.
+         Sve što trebate jeste da se obratite nama i prepustite timu ljudi koji će dati svoj maksimum, kako bi ispunili sve Vaše želje. </p>
     </div>
     <div class="w3-quarter">
             <img src="../Images/threading.png" class="w3-margin-bottom w3-jumbo w3-center" width="30%" >
     
       <p class="w3-large">Threading</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p class="oNamaSlika" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <img src="../Images/education.png" class="w3-margin-bottom w3-jumbo w3-center" width="30%" >
       <p class="w3-large">Edukacije</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p class="oNamaSlika" >Sa željom da znanje prenesemo svima onima koji žele da nauče kako da rade ovaj posao, u našem salonu održavamo edukacije.
+      </p>
     </div>
   </div>
 </div>
@@ -112,7 +114,7 @@
 
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">THE TEAM</h3>
+  <h3 class="w3-center">NAŠ TIM</h3>
   <p class="w3-center w3-large">The ones who runs this company</p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -189,7 +191,7 @@
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <img src="../Images/slika1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Svečana frizura">
     </div>
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
@@ -256,7 +258,7 @@
 
 <!-- Pricing Section -->
 <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h3>PRICING</h3>
+  <h2>CJENOVNIK</h2>
   <p class="w3-large">Choose a pricing plan that fits your needs.</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-third w3-section">
@@ -312,12 +314,16 @@
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+  <h2 class="w3-center">KONTAKT</h2>
+  <!--<p class="w3-center w3-large">Lets get in touch. Send us a message:</p>-->
+  <div style="margin-top:48px;margin-left:5%">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Mostar: Franjevačka 13A</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Mostar: 065986740</p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sarajevo: Zmaja od Bosne BB</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Sarajevo: 062548811</p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Konjic: Kolonija BB</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Konjic: 061696063</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> lejla.habibija@hotmail.com</p>
     <br>
     <!--
     <form action="/action_page.php" target="_blank">
@@ -333,7 +339,7 @@
     </form>
 -->
     <!-- Image of location/map -->
-    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <!--<div id="googleMap" style="width:100%;height:400px;"></div>-->
 
 
   </div>
@@ -343,40 +349,16 @@
 <footer class="w3-center w3-black w3-padding-64">
   <!--<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>-->
   <div class="w3-xlarge w3-section">
-    <a href="https://www.facebook.com/Threadingbardoo/" ><i class="fa fa-facebook-official w3-hover-opacity" style="padding-right:1%;"></i></a>
-    <a href="https://www.instagram.com/threadingbar_d.o.o/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.facebook.com/Threadingbardoo/" class="ikonafooter"><i class="fa fa-facebook-official w3-hover-opacity" style="padding-right:1%;"></i></a>
+    <a href="https://www.instagram.com/threadingbar_d.o.o/?hl=en" class="ikonafooter"><i class="fa fa-instagram w3-hover-opacity"></i></a>
   </div>
   <p>Powered by Powered by<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <button onclick="topFunction()" id="myBtn" title="Go to top" ><i class="fa fa-chevron-up"></i></button><br>
 
 </footer>
  
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
 
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
 <script>
         function myMap() {
         var mapProp= {
