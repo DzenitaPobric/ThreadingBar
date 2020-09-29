@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <head>
 <title>THreading bar "Lejla Habibija"</title>
 
 <meta charset="UTF-8">
@@ -10,9 +11,11 @@
 <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
 <link  href="../Images/naslovna.jpg" rel="icon">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <link rel="stylesheet" href="../CSS/style.css">
 
-
+</head>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -108,58 +111,74 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
       <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
     </div>
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+    <div class="w3-col m6 w3-card-4" style="width:36%">
+      <img class="w3-image w3-round-large" src="../Images/lejla.jpg" alt="Lejla" style="margin-top:2%; width:100%; height:420px; ">
+      <div class="w3-container w3-center">
+        <h4 style="font-weight: bold; font-style: italic;">Lejla Habibija</h4>
+      </div>
     </div>
   </div>
 </div>
 
+
+
+<!--<div class="w3-container">
+  <h2>Photo Card</h2>
+
+  <div class="w3-card-4" style="width:50%">
+    <img src="img_snowtops.jpg" alt="Alps" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>The Italian / Austrian Alps</p>
+    </div>
+  </div>
+</div>-->
+
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">NAŠ TIM</h3>
+  <h2 class="w3-center">NAŠ TIM</h2>
   <p class="w3-center w3-large">The ones who runs this company</p>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+  <div class="w3-row-padding " style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <img src="..//Images/elma.jpg" alt="Elma" style="width:100%">
         <div class="w3-container">
-          <h3>John Doe</h3>
+          <h3>Elma Memidžan</h3>
           <p class="w3-opacity">CEO & Founder</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <img src="..//Images/dajana.jpg" alt="Dajana" style="width:100%">
         <div class="w3-container">
-          <h3>Anja Doe</h3>
+          <h3>Dajana Hadžiomerović</h3>
           <p class="w3-opacity">Art Director</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <img src="..//Images/adisa.jpg" alt="Adisa" style="width:100% ; height:370px">
         <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Web Designer</p>
+          <h3>Adisa Marić</h3>
+          <p class="w3-opacity">Frizerka</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        <!--  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+        <img src="..//Images/naima.jpg" alt="Naima" style="width:100%">
         <div class="w3-container">
-          <h3>Dan Star</h3>
+          <h3>Naima Sloboda</h3>
           <p class="w3-opacity">Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+         <!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
         </div>
       </div>
     </div>
@@ -167,24 +186,59 @@
 </div>
 
 <!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">14+</span>
-    <br>Partners
+<section class="counters">
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64" style="position:relative;">
+  <div class="waveWrapper waveAnimation">
+    <div class="waveWrapperInner bgTop">
+      <br>
+      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+      <div class="w3-quarter">    
+        <!--<div class="counter w3-xxlarge" data-target="1000">0 </div>-->
+        <!--<span data-toggle="counter-up">24</span>-->
+        <span class="count w3-xxlarge">1000 </span>
+        <span class=" w3-xxlarge">+</span>
+       <!--<span class="w3-xxlarge">14+</span>-->
+        <br><h4 style="font-weight: bold; letter-spacing: 2px;">Zadovoljni klijenti</h4>
+      </div>
+      <div class="w3-quarter">
+    <span class="count w3-xxlarge">3 </span>
+
+    <!--<span class="w3-xxlarge">55+</span>-->
+    <br><h4 style="font-weight: bold; letter-spacing: 2px;">Lokacije</h4>
+    </div>
+
+    <div class="w3-quarter">
+      <span class="count w3-xxlarge">10 </span>
+      <span class=" w3-xxlarge">+</span>
+
+      <!--<span class="w3-xxlarge">55+</span>-->
+      <br><h4 style="font-weight: bold; letter-spacing: 2px;">Zaposlenici</h4>
+      </div>
+
+      <div class="w3-quarter">
+        <span class="count w3-xxlarge">50 </span>
+        <span class=" w3-xxlarge">+</span>
+
+        <!--<span class="w3-xxlarge">55+</span>-->
+        <br><h4 style="font-weight: bold; letter-spacing: 2px;">Edukacije</h4>
+        </div>
+  
+
+    </div>
+    <div class="waveWrapperInner bgMiddle">
+      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+    </div>
   </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">55+</span>
-    <br>Projects Done
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">89+</span>
-    <br>Happy Clients
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">150+</span>
-    <br>Meetings
-  </div>
+  <br><br><br><br><br>
+
 </div>
+</section>
+
+
+
 
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
@@ -394,7 +448,11 @@
 
 
 
+
+
+
 <script src="../JS/script.js"></script>
+
 
 </body>
 </html>
