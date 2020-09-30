@@ -172,3 +172,62 @@ animation: move-wave 3s;
 .waveAnimation .waveBottom {
   animation: move_wave 15s linear infinite;
 }
+
+
+.LejlaTekst{
+  font-size:16px;
+  letter-spacing: 1px;
+  text-align: justify;
+  
+}
+
+.lejlacard{
+  font-weight: bold; 
+  font-style: italic; 
+  letter-spacing: 2px;
+}
+
+
+
+.brojacTekst{
+  font-weight: bold; 
+  letter-spacing: 2px;
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+ .w3-card-4 {
+    margin-top:2% !important;
+    width:90% !important;
+
+  }
+  .brojac{
+    margin-top:5%;
+    width:25%;
+    font-size: 12px !important;
+  }
+
+  .brojacTekst {
+  font-size: 18px !important;
+  }
+
+  .w3-xxlarge{
+    font-size: 22px !important;
+    }
+
+}
+
+
+.naslov{
+  letter-spacing: 2px;
+
+
+}
+.kontakt{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+

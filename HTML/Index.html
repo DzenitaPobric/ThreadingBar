@@ -67,7 +67,7 @@
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h2 class="w3-center">O NAMA</h2>
+  <h2 class="w3-center naslov">O NAMA</h2>
   <hr>
   <br>
   <p class="oNama" >'Threading bar nudi usluge depilacije koncem tj.threading metodom (obrve, lice).
@@ -108,13 +108,21 @@
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3>We know design.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+      <p class="LejlaTekst">Sve je počelo davno, prije tri ipo godine, kada sam završila fakultet i htjela raditi nesto svoje, pa barem dva sata dnevno da imam posao.
+         Krenula sam raditi obrve, koncem. Sjećam se, tada je to bila tolika nepoznanica za šire mase, konac i obrve?? Kako? Veliki broj žena je
+         dolazio samo da vidi šta je to, da vidi tehniku. U tom naletu zainteresovanosti za obrve i konac ja sam svoj sobičak od nekoliko kvadrata 
+         iskoristila da primim sve te žene. To je bila bratova soba.</p>
+         <p class="LejlaTekst">Svaka obrva i svaka žena su bile moj korak naprijed, svaku plaćenu obrvu sam iskoristila da kupim nesto novo za svoj sobičak i vremenom je i on izgledao jako lijepo. 
+           Uvijek sam bila stava da nikad neću prestati ulagati u sebe i posao.</p>
+           <p class="LejlaTekst">Hvala svakoj ženi koja nas je ikad posjetila od sobice do danas nas, koja je svoj novac dala za naš rad. Neizmjerno cijenimo svaku od vas. 
+             Ja se zadnjih godina pomalo sjećam kao kroz maglu, od umora, ali pamtim ono najvažnije. Sad idemo dalje, još luđe od ovoga.</p>
+         <br>
+      <p><a href="#work" class="w3-button w3-black" style="font-weight: bold; letter-spacing: 2px;"><i class="fa fa-th"> </i> Naši radovi</a></p>
     </div>
-    <div class="w3-col m6 w3-card-4" style="width:36%">
-      <img class="w3-image w3-round-large" src="../Images/lejla.jpg" alt="Lejla" style="margin-top:2%; width:100%; height:420px; ">
+    <div class="w3-col m6 w3-card-4" style="width:36%; height:auto; margin-left:8%">
+      <img class="w3-image w3-round-large w3-hover-opacity" src="../Images/lejla.jpg" alt="Lejla Habibija" style="margin-top:2%; width:100%; height:auto;" onclick="onClick(this)"  >
       <div class="w3-container w3-center">
-        <h4 style="font-weight: bold; font-style: italic;">Lejla Habibija</h4>
+        <h4 class="lejlacard">Lejla Habibija</h4>
       </div>
     </div>
   </div>
@@ -122,20 +130,9 @@
 
 
 
-<!--<div class="w3-container">
-  <h2>Photo Card</h2>
-
-  <div class="w3-card-4" style="width:50%">
-    <img src="img_snowtops.jpg" alt="Alps" style="width:100%">
-    <div class="w3-container w3-center">
-      <p>The Italian / Austrian Alps</p>
-    </div>
-  </div>
-</div>-->
-
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
-  <h2 class="w3-center">NAŠ TIM</h2>
+  <h2 class="w3-center naslov">NAŠ TIM</h2>
   <p class="w3-center w3-large">The ones who runs this company</p>
   <div class="w3-row-padding " style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -192,35 +189,35 @@
     <div class="waveWrapperInner bgTop">
       <br>
       <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
-      <div class="w3-quarter">    
+      <div class="w3-quarter brojac">    
         <!--<div class="counter w3-xxlarge" data-target="1000">0 </div>-->
         <!--<span data-toggle="counter-up">24</span>-->
         <span class="count w3-xxlarge">1000 </span>
         <span class=" w3-xxlarge">+</span>
        <!--<span class="w3-xxlarge">14+</span>-->
-        <br><h4 style="font-weight: bold; letter-spacing: 2px;">Zadovoljni klijenti</h4>
+        <br><h4 class="brojacTekst" >Zadovoljni klijenti</h4>
       </div>
-      <div class="w3-quarter">
+      <div class="w3-quarter brojac">
     <span class="count w3-xxlarge">3 </span>
 
     <!--<span class="w3-xxlarge">55+</span>-->
-    <br><h4 style="font-weight: bold; letter-spacing: 2px;">Lokacije</h4>
+    <br><h4 class="brojacTekst" >Lokacije</h4>
     </div>
-
-    <div class="w3-quarter">
+ 
+    <div class="w3-quarter brojac">
       <span class="count w3-xxlarge">10 </span>
       <span class=" w3-xxlarge">+</span>
 
       <!--<span class="w3-xxlarge">55+</span>-->
-      <br><h4 style="font-weight: bold; letter-spacing: 2px;">Zaposlenici</h4>
+      <br><h4 class="brojacTekst" >Zaposlenici</h4>
       </div>
 
-      <div class="w3-quarter">
+      <div class="w3-quarter brojac">
         <span class="count w3-xxlarge">50 </span>
         <span class=" w3-xxlarge">+</span>
 
         <!--<span class="w3-xxlarge">55+</span>-->
-        <br><h4 style="font-weight: bold; letter-spacing: 2px;">Edukacije</h4>
+        <br><h4 class="brojacTekst" >Edukacije</h4>
         </div>
   
 
@@ -242,13 +239,14 @@
 
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">OUR WORK</h3>
+  <h3 class="w3-center naslov">OUR WORK</h3>
   <p class="w3-center w3-large">What we've done for people</p>
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="../Images/slika1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Svečana frizura">
+      <img src="../Images/slika1.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Svečana frizura">
     </div>
+    
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
     </div>
@@ -260,7 +258,6 @@
     </div>
   </div>
 
-  
   <div class="w3-row-padding w3-section">
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
@@ -290,7 +287,7 @@
 <div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m6">
-      <h3>Our Skills.</h3>
+      <h3 >Our Skills.</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
       tempor incididunt ut labore et dolore.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
@@ -315,7 +312,7 @@
 
 <!-- Pricing Section -->
 <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h2>CJENOVNIK</h2>
+  <h2 class="naslov">CJENOVNIK</h2>
   <p class="w3-large">Choose a pricing plan that fits your needs.</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-third w3-section">
@@ -371,7 +368,7 @@
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h2 class="w3-center">KONTAKT</h2>
+  <h2 class="w3-center naslov" >KONTAKT</h2>
   <!--<p class="w3-center w3-large">Lets get in touch. Send us a message:</p>-->
   <div style="margin-top:48px;margin-left:5%">
  
@@ -392,19 +389,19 @@
      <div class="w3-container" style="width: 100%;"   id="about">
       <div class="w3-quarter" id="w3-quarter-hover"  style="width: 30%;">
      <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.899565160449!2d17.807052315031733!3d43.33729068081979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b437c1cd4df4f%3A0xfff904344864fbdd!2sThreading%20bar%20Browdesigner%20HL!5e0!3m2!1sen!2sba!4v1601366826392!5m2!1sen!2sba" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Mostar: Franjevačka 13A</p>
-     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Mostar: 065986740</p>
+     <p class="kontakt" ><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Mostar: Franjevačka 13A</p>
+     <p class="kontakt" ><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Mostar: 065986740</p>
     </div>
     <div class="w3-quarter"  id="w3-quarter-hover" style="margin-left: 5%;width:30%;">
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.6433085376375!2d17.953124015042782!3d43.65558896029503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475f51278eb90725%3A0x185b91bf465c2a46!2sKolonija%2C%20Konjic!5e0!3m2!1sen!2sba!4v1601366862162!5m2!1sen!2sba" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
    
-     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Konjic: Kolonija BB</p>
-     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Konjic: 061696063</p>
+     <p class="kontakt" ><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Konjic: Kolonija BB</p>
+     <p class="kontakt" ><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Konjic: 061696063</p>
     </div>
     <div class="w3-quarter" id="w3-quarter-hover" style="margin-left: 5%;width: 30%;">
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.1811130214173!2d18.382154815049734!3d43.85207464756661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c916eb1a13e3%3A0xb65d0f1ebe8af2f8!2sRobot%20Socijalno!5e0!3m2!1sen!2sba!4v1601366974094!5m2!1sen!2sba" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sarajevo: Zmaja od Bosne BB</p>
-     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Sarajevo: 062548811</p>
+     <p class="kontakt" ><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Sarajevo: Zmaja od Bosne BB</p>
+     <p class="kontakt" ><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Sarajevo: 062548811</p>
     </div>
     
   
