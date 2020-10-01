@@ -177,25 +177,34 @@ animation: move-wave 3s;
 .LejlaTekst{
   font-size:16px;
   letter-spacing: 1px;
-  text-align: justify;
-  
+  text-align: justify; 
+  color:black;
 }
+
+/*
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.LejlaTekst, .oNama, .naslov, .oNamaSlika {
+  animation-name: example;
+  animation-duration: 6s;
+}
+*/
+
+
 
 .lejlacard{
   font-weight: bold; 
   font-style: italic; 
   letter-spacing: 2px;
 }
-
-
-
+ 
 .brojacTekst{
   font-weight: bold; 
   letter-spacing: 2px;
 }
-
-
-
 
 @media only screen and (max-width: 900px){
  .w3-card-4 {
@@ -216,18 +225,21 @@ animation: move-wave 3s;
   .w3-xxlarge{
     font-size: 22px !important;
     }
-
 }
-
 
 .naslov{
   letter-spacing: 2px;
-
-
 }
+
 .kontakt{
   font-size: 16px;
   letter-spacing: 1px;
 }
+
+hr{
+  border-width: 2px;
+}
+
+
 
 
