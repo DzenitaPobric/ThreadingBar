@@ -239,7 +239,10 @@ animation: move-wave 3s;
 hr{
   border-width: 2px;
 }
-
+div.gallery img {
+  width: 300;
+  height: 300;
+}
 
 
 
