@@ -246,19 +246,19 @@
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6 ">
-      <img src="../Images/slika1.jpg" class="mySlides"  onclick="onClick(this)" class="w3-hover-opacity" alt="Svečana frizura" width="300" height="300">
+      <img src="../Images/slika1.jpg"  onclick="openModal();currentSlide(1)" class="w3-hover-opacity" alt="Svečana frizura" width="300" height="300">
     </div>
     
     <div class="w3-col l3 m6  ">
-      <img src="../Images/prva.jpg"  class="mySlides"  onclick="onClick(this)" class="w3-hover-opacity" alt="A phone" width="300" height="300">
+      <img src="../Images/prva.jpg"   onclick="openModal();currentSlide(2)" class="w3-hover-opacity" alt="A phone" width="300" height="300">
     </div>
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/druga.jpg"  class="mySlides"  onclick="onClick(this)" class="w3-hover-opacity" alt="A drone" width="300" height="300">
+      <img src="../Images/druga.jpg"   onclick="openModal();currentSlide(3)" class="w3-hover-opacity" alt="A drone" width="300" height="300">
     </div>
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/treca.jpg"  class="mySlides"  onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox" width="300" height="300">
+      <img src="../Images/treca.jpg"   onclick="openModal();currentSlide(4)" class="w3-hover-opacity" alt="Soundbox" width="300" height="300">
     </div>
 
   </div>
@@ -267,38 +267,38 @@
 
   <div class="w3-row-padding w3-section ">
     <div class="w3-col l3 m6  ">
-      <img src="../Images/cetvrta.jpg"  class="mySlides"  onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet" width="300" height="300">
+      <img src="../Images/cetvrta.jpg"   onclick="openModal();currentSlide(5)"class="w3-hover-opacity" alt="A tablet" width="300" height="300">
     </div>
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/peta.jpg"  class="mySlides" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera" width="300" height="300">
+      <img src="../Images/peta.jpg"   onclick="openModal();currentSlide(6)"class="w3-hover-opacity" alt="A camera" width="300" height="300">
     </div>
 
     <div class="w3-col l3 m6  ">
-      <img src="../Images/sesta.jpg"  class="mySlides"  onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter" width="300" height="300">
+      <img src="../Images/sesta.jpg"  onclick="openModal();currentSlide(7)" class="w3-hover-opacity" alt="A typewriter" width="300" height="300">
     </div>
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/sedma.jpg"  class="mySlides"  onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
+      <img src="../Images/sedma.jpg"    onclick="openModal();currentSlide(8)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
     </div>
 
    </div>
  
  <div class="w3-row-padding w3-section ">
     <div class="w3-col l3 m6 ">
-      <img src="../Images/osma.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
+      <img src="../Images/osma.jpg"  onclick="openModal();currentSlide(9)"class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
     </div>
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/deveta.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
+      <img src="../Images/deveta.jpg"  onclick="openModal();currentSlide(10)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
     </div>
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/deseta.jpg" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300"> 
+      <img src="../Images/deseta.jpg" onclick="openModal();currentSlide(11)"class="w3-hover-opacity" alt="A tableturner" width="300" height="300"> 
     </div>
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/jedanaesta.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
+      <img src="../Images/jedanaesta.jpg"  onclick="openModal();currentSlide(12)"class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
     </div>
 
   </div>
@@ -306,15 +306,83 @@
   <div class="w3-row-padding w3-section ">
 
     <div class="w3-col l3 m6 ">
-      <img src="../Images/dvanaesta.jpg " onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
+      <img src="../Images/dvanaesta.jpg " onclick="openModal();currentSlide(13)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
     </div>
     <div class="w3-col l3 m6 ">
-      <img src="../Images/trinaesta.jpg "  onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
+      <img src="../Images/trinaesta.jpg "  onclick="openModal();currentSlide(14)" class="w3-hover-opacity" alt="A tableturner" width="300" height="300">
     </div>
   </div>
  
 
 
+</div>
+
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="../Images/slika1.jpg"  style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="../Images/prva.jpg"  style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="../Images/druga.jpg"  style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="../Images/treca.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">5 / 4</div>
+      <img src="../Images/cetvrta.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">6 / 4</div>
+      <img src="../Images/peta.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">7 / 4</div>
+      <img src="../Images/sesta.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">8 / 4</div>
+      <img src="../Images/sedma.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">9 / 4</div>
+      <img src="../Images/osma.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">10 / 4</div>
+      <img src="../Images/deveta.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">11 / 4</div>
+      <img src="../Images/deseta.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">12 / 4</div>
+      <img src="../Images/jedanaesta.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">13 / 4</div>
+      <img src="../Images/dvanaesta.jpg"  style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">14 / 4</div>
+      <img src="../Images/trinaesta.jpg"  style="width:100%">
+      
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+  
+
+    <!-- Thumbnail image controls -->
+   
+  </div>
 </div>
 
 <!-- Modal for full size images on click-->
@@ -478,7 +546,10 @@
 
 
 
-
+<script>
+  // Open the Modal
+ 
+  </script>
 
 
 <script src="../JS/script.js"></script>
