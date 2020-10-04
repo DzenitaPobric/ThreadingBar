@@ -104,15 +104,16 @@ $(window).on('load', function() {
 });
 
 
+/* dropdwon cjenovnik*/
 
+$(document).ready(function(){
+  $("#dropdown").click(function(){
+    $("#dropdown-content").toggle();
+  });
+});
 
-function dropdown(){
-  if( document.getElementById("dropdown-content").style.display = "none"){
-    document.getElementById("dropdown-content").style.display = "block";
-  }
-  else if( document.getElementById("dropdown-content").style.display = "block"){
-    document.getElementById("dropdown-content").style.display = "none";
-  }
-  
-}
-
+$(document).ready(function(){
+  $("#dropdown2").click(function(){
+    $("#dropdown-content2").toggle();
+  });
+});

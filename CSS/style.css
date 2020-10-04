@@ -96,11 +96,6 @@ margin-top: 4.5%;
   .w3-center{
     font-weight: bold;
   }
-
-
-
-
-
   
 
 @keyframes move_wave {
@@ -180,20 +175,6 @@ animation: move-wave 3s;
   text-align: justify; 
   color:black;
 }
-
-/*
-@keyframes example {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-.LejlaTekst, .oNama, .naslov, .oNamaSlika {
-  animation-name: example;
-  animation-duration: 6s;
-}
-*/
-
-
 
 .lejlacard{
   font-weight: bold; 
@@ -388,8 +369,16 @@ img.hover-shadow {
   }
 }
 
-
-
+@media only screen and (max-width: 600px){
+  .slikaAmb{
+    width:100% !important; 
+  }
+ }
+ @media only screen and (max-width: 900px){
+  .slikaAmb{
+    width:100% !important; 
+  }
+ }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -416,19 +405,12 @@ img.hover-shadow {
 }
 
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown:focus{
-  background-color: coral;
-}
 
 #dropdown-content {
-  display: none;
-  /*position: absolute;*/
- 
+  display: none; 
+}
+#dropdown-content2 {
+  display: none; 
 }
 
-.show {display:block;}
+
