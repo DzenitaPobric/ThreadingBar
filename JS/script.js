@@ -102,3 +102,17 @@ function aos_init() {
 $(window).on('load', function() {
   aos_init();
 });
+
+
+
+
+function dropdown(){
+  if( document.getElementById("dropdown-content").style.display = "none"){
+    document.getElementById("dropdown-content").style.display = "block";
+  }
+  else if( document.getElementById("dropdown-content").style.display = "block"){
+    document.getElementById("dropdown-content").style.display = "none";
+  }
+  
+}
+
