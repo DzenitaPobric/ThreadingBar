@@ -1,7 +1,5 @@
- //Get the button
  var mybutton = document.getElementById("myBtn");
         
- // When the user scrolls down 20px from the top of the document, show the button
  window.onscroll = function() {scrollFunction()};
  
  function scrollFunction() {
@@ -12,7 +10,6 @@
    }
  }
  
- // When the user clicks on the button, scroll to the top of the document
  function topFunction() {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
@@ -23,7 +20,6 @@
   document.getElementById("myModal").style.display = "block";
 }
 
-// Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
@@ -31,12 +27,10 @@ function closeModal() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -57,11 +51,6 @@ function showSlides(n) {
 }
 
 
-
-
-
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
 var mySidebar = document.getElementById("mySidebar");
 
 function w3_open() {
@@ -72,7 +61,6 @@ function w3_open() {
   }
 }
 
-// Close the sidebar with the close button
 function w3_close() {
     mySidebar.style.display = "none";
 }
@@ -104,7 +92,6 @@ $(window).on('load', function() {
 });
 
 
-/* dropdwon cjenovnik*/
 
 $(document).ready(function(){
   $("#dropdown").click(function(){
